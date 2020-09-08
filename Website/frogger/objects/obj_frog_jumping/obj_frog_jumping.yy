@@ -26,6 +26,7 @@
     {"isDnD":true,"eventNum":37,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_frog_jumping","path":"objects/obj_frog_jumping/obj_frog_jumping.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":39,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_frog_jumping","path":"objects/obj_frog_jumping/obj_frog_jumping.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_frog_jumping","path":"objects/obj_frog_jumping/obj_frog_jumping.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_log","path":"objects/obj_log/obj_log.yy",},"parent":{"name":"obj_frog_jumping","path":"objects/obj_frog_jumping/obj_frog_jumping.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_log_R","path":"objects/obj_log_R/obj_log_R.yy",},"parent":{"name":"obj_frog_jumping","path":"objects/obj_frog_jumping/obj_frog_jumping.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],

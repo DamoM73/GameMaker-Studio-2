@@ -1,7 +1,26 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Instances.Change_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 4664C2F2
-/// @DnDArgument : "expr" "-64"
-/// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "obj_frog_on_log.x_dist"
-obj_frog_on_log.x_dist += -64;
+/// @DnDHash : 7D127A46
+/// @DnDApplyTo : {obj_log_with_frog}
+/// @DnDArgument : "objind" "obj_log"
+/// @DnDSaveInfo : "objind" "obj_log"
+with(obj_log_with_frog) instance_change(obj_log, true);
+
+/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
+/// @DnDVersion : 1.1
+/// @DnDHash : 2E32A15F
+/// @DnDArgument : "direction" "180"
+direction = 180;
+
+/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 769497C0
+/// @DnDArgument : "speed" "64"
+speed = 64;
+
+/// @DnDAction : YoYo Games.Instances.Change_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 7DF16382
+/// @DnDArgument : "objind" "obj_frog_jumping"
+/// @DnDSaveInfo : "objind" "obj_frog_jumping"
+instance_change(obj_frog_jumping, true);

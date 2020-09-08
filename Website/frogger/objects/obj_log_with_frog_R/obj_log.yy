@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_log_with_frog",
-    "path": "sprites/spr_log_with_frog/spr_log_with_frog.yy",
+    "name": "spr_log",
+    "path": "sprites/spr_log/spr_log.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_log_with_frog_R","path":"objects/obj_log_with_frog_R/obj_log_with_frog_R.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_log_with_frog_R","path":"objects/obj_log_with_frog_R/obj_log_with_frog_R.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_log","path":"objects/obj_log/obj_log.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_log","path":"objects/obj_log/obj_log.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_log_with_frog_R",
+  "name": "obj_log",
   "tags": [],
   "resourceType": "GMObject",
 }

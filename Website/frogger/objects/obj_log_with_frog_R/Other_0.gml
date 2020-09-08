@@ -1,8 +1,5 @@
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDAction : YoYo Games.Movement.Wrap_Room
 /// @DnDVersion : 1
-/// @DnDHash : 1D8C0A1B
-/// @DnDArgument : "x" "-64"
-/// @DnDArgument : "y" "0"
-/// @DnDArgument : "y_relative" "1"
-x = -64;
-y += 0;
+/// @DnDHash : 6CB6E5D8
+/// @DnDArgument : "ver" "0"
+move_wrap(1, 0, 0);
